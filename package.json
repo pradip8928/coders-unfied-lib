@@ -1,0 +1,25 @@
+{
+    "name": "coders-unified-lib",
+    "version": "1.0.0",
+    "description": "this is unified lib",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepare": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pradip8928/coders-unfied-lib.git"
+    },
+    "author": "Pradip Pal <deepakpal@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/pradip8928/coders-unfied-lib/issues"
+    },
+    "homepage": "https://github.com/pradip8928/coders-unfied-lib#readme",
+    "devDependencies": {
+        "typescript": "^5.2.2"
+    },
+    "files": ["lib/**/*"]
+}

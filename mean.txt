@@ -1,0 +1,23 @@
+ "compilerOptions": {
+        "target": "ES5",
+        "module": "CommonJS",//for both javascript and frontend (lib)
+        "declaration": true,//for autocompletion and suggestions
+        "outDir": "./lib",//after creation of package which folder you are into put
+        "strict": true
+    },
+    "include": ["src"],//we are going to compile this folder code
+    "exclude": ["node_modules","**/__test__/*"]
+
+
+
+
+    "scripts": {
+        "build": "tsc"//compile index.ts and convert it intojs and put into build directory
+    },
+
+
+
+
+
+
+    
